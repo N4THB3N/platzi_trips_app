@@ -89,7 +89,13 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
   assets:
     - assets/img/people.jpg
-  
+    - assets/img/hipster.jpg
+    - assets/img/twist.jpg
+    - assets/img/mexico.jpg
+    - assets/img/swiss.jpg
+    - assets/img/antigua.jpg
+    - assets/img/monterrico.jpg
+
   fonts:
     - family: Lato
       fonts:

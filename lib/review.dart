@@ -13,7 +13,7 @@ class Review extends StatelessWidget {
     final userComment = Container(
       margin: EdgeInsets.only(left: 20),
       child: Text(
-        details,
+        comment,
         textAlign: TextAlign.center,
         style: TextStyle(
             fontFamily: "Lato",
@@ -58,7 +58,7 @@ class Review extends StatelessWidget {
     );
 
     return Row(
-      children: <Widget>[photo, userComment],
+      children: <Widget>[photo, userDetails],
     );
   }
 }
