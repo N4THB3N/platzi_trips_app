@@ -95,6 +95,11 @@ flutter:
     - assets/img/swiss.jpg
     - assets/img/antigua.jpg
     - assets/img/monterrico.jpg
+    - assets/img/pianowoman.jpg
+    - assets/img/trompetman.jpg
+    - assets/img/jazz_trompet.jpg
+    - assets/img/jazz_man.jpg
+    - assets/img/mail.jpg
 
   fonts:
     - family: Lato

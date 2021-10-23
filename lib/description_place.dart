@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'button_purple.dart';
 
 class DescriptionPlace extends StatelessWidget {
   String namePlace;
@@ -12,7 +13,7 @@ class DescriptionPlace extends StatelessWidget {
     // TODO: implement build
 
     final star_half = Container(
-      margin: EdgeInsets.only(top: 323.0, right: 3.0),
+      margin: EdgeInsets.only(top: 353.0, right: 3.0),
       child: Icon(
         Icons.star_half,
         color: Color(0xFFf2C611),
@@ -20,7 +21,7 @@ class DescriptionPlace extends StatelessWidget {
     );
 
     final star_border = Container(
-      margin: EdgeInsets.only(top: 323.0, right: 3.0),
+      margin: EdgeInsets.only(top: 353.0, right: 3.0),
       child: Icon(
         Icons.star_border,
         color: Color(0xFFf2C611),
@@ -28,7 +29,7 @@ class DescriptionPlace extends StatelessWidget {
     );
 
     final star = Container(
-      margin: EdgeInsets.only(top: 323.0, right: 3.0),
+      margin: EdgeInsets.only(top: 353.0, right: 3.0),
       child: Icon(
         Icons.star,
         color: Color(0xFFf2C611),
@@ -38,7 +39,7 @@ class DescriptionPlace extends StatelessWidget {
     final title_stars = Row(
       children: <Widget>[
         Container(
-          margin: EdgeInsets.only(top: 320, left: 20.0, right: 20.0),
+          margin: EdgeInsets.only(top: 350, left: 20.0, right: 20.0),
           child: Text(
             namePlace,
             style: TextStyle(
@@ -77,7 +78,8 @@ class DescriptionPlace extends StatelessWidget {
         ));
 
     return Column(
-      children: [title_stars, description],
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [title_stars, description, ButtonPurple()],
     );
   }
 }

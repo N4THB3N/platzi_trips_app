@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'description_place.dart';
 import 'review_list.dart';
 import 'gradient_back.dart';
+import 'header_appbar.dart';
+import 'designer_list.dart';
 
 void main() => runApp(MyApp());
 
@@ -26,10 +28,12 @@ class MyApp extends StatelessWidget {
             ListView(
               children: <Widget>[
                 DescriptionPlace('Duwili Ela', 4, descriptionDummy),
-                ReviewList()
+                ReviewList(),
+                // DesignerList()
               ],
             ),
-            Gradient_Back("Popular"),
+            // GradientBack("Popular"),
+            HeaderAppBar(),
           ],
         ),
       ),
