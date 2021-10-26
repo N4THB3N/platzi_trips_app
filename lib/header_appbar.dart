@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:platzi_trips_app/gradient_back.dart';
 import 'gradient_back.dart';
 import 'card_image_list.dart';
 

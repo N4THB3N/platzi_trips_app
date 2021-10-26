@@ -100,6 +100,7 @@ flutter:
     - assets/img/jazz_trompet.jpg
     - assets/img/jazz_man.jpg
     - assets/img/mail.jpg
+    - assets/img/natan.jpg
 
   fonts:
     - family: Lato
